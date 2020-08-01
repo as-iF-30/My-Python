@@ -1,0 +1,28 @@
+import turtle
+a=turtle.Turtle()
+a.color("red")
+a.shape("turtle")
+for i in range(4):
+	a.forward(100)
+	a.left(90)
+for i in range(4):
+    a.backward(100)
+    a.right(90)
+a.left(90)
+a.forward(100)
+a.left(45)
+a.forward(80)
+a.right(260)
+a.forward(70)
+a.left(180)
+a.forward(70)
+a.right(55)
+a.forward(158)
+a.right(90.2)
+a.forward(61)
+a.pu()
+for i in range(100):
+    a.forward(10)
+    a.right(90)
+# a.left(90)
+# a.forward(80)

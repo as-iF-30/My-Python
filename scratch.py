@@ -1,0 +1,26 @@
+a=10
+b=7
+c=a+b
+print("Sum=",c)
+c=a-b
+print("Sub=",c)
+c=a*b
+print("mul=",c)
+c=a**b;
+print("Exponent",c)
+c=a/b
+print("div(with decimal/floor division)=",c)
+c=a//b
+print("div(without decimal)=",c)
+c=a&b
+print("And operator=",c)
+c=a|b
+print("Or operator=",c)
+c=~a
+print("Not operator=",c)
+c=a^b
+print("Xr operator=",c)
+c=a<<1
+print("Left shift operator=",c)
+c=a>>1
+print("Right shift--9 operator=",c)
